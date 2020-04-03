@@ -1,0 +1,127 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    min-height: 75px;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(160, 160, 160);
+    z-index: 1;
+    box-shadow: 0px 0px 10px 10px rgb(65, 65, 65);
+}
+
+.header-img-wrapper {
+    align-content: center;
+    text-align: center;
+}
+
+#nav {
+    width: 100%;
+}
+
+.navbar {
+    width: 500px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.navbar a {
+    color: #f2f2f2;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+.navbar a:hover {
+    color: rgb(122, 112, 112);
+  }
+
+.navbar a.active {
+    color: rgb(65, 65, 65);
+  }
+
+body {
+    background-color: rgb(112, 112, 112);
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.studio-spacer {
+    width: 100%;
+    min-height: 318px;
+    background-color: rgb(112, 112, 112);
+}
+
+.studio {
+    background: url(https://images.squarespace-cdn.com/content/v1/5d5ea7971814e80001ec20ff/1585410173122-0N14ZFK7Y4H2IKR8CNAH/ke17ZwdGBToddI8pDm48kOzYD4qrgQDS5mM8wV0NMaIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc9ivGJObJMVXfVf0OZry-BKORPWLZfDOp49XZ-6UM6brE80AJig79rziGQWsaoK4K/contentPicTatttooInk.jpg?format=1000w) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    min-height: 318px;
+    overflow: hidden;
+}
+
+.studio-content {
+    background-color: rgba(0, 255, 60, 0.6);
+    color: rgb(0, 0, 0);
+    padding: 25px 50px 25px 50px;
+    min-height: 318px;
+}
+
+.portfolio {
+    min-height: 318px;
+    overflow: hidden;
+}
+
+.portfolio-content {
+    color: rgb(0, 0, 0);
+    padding: 25px 0px 25px 50px;
+    background-color: rgb(112, 112, 112);
+}
+
+.team {
+    background: url(https://images.squarespace-cdn.com/content/v1/5d5ea7971814e80001ec20ff/1585499265549-8ORR6RO5J196RK1DA4PM/ke17ZwdGBToddI8pDm48kOzYD4qrgQDS5mM8wV0NMaIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc9ivGJObJMVXfVf0OZry-BKORPWLZfDOp49XZ-6UM6brE80AJig79rziGQWsaoK4K/ourWork.JPG?format=1500w) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    min-height: 318px;
+    overflow: hidden;
+}
+
+.team-content {
+    background-color: rgba(0, 255, 60, 0.6);
+    color: rgb(0, 0, 0);
+    padding: 25px 50px 25px 50px;
+    min-height: 318px;
+}
+
+.contact {
+    width: 100%;
+    min-height: 318px;
+    overflow: hidden;
+}
+
+.contact-content {
+    color: rgb(0, 0, 0);
+    padding: 25px 50px 25px 50px;
+    background-color: rgb(112, 112, 112);
+    min-height: 318px;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    background-color: rgb(0, 200, 50);
+  }
+}
